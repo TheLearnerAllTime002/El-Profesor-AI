@@ -1,36 +1,162 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# :money_with_wings: El Profesor AI - Money Heist Chatbot
 
-## Getting Started
+---
 
-First, run the development server:
 
-```bash
+  
+
+
+---
+
+## 🎭 About
+
+**El Profesor AI** is an immersive, multilingual AI chatbot inspired by Netflix's *Money Heist* (La Casa de Papel).  
+Chat with iconic characters like **The Professor**, **Berlin**, **Tokyo**, and more, as they engage with unforgettable charisma.  
+Upload PDFs or images during conversations for advanced content-aware replies.  
+Experience a rich, heist-themed interface with gamification elements and stylish UI!
+
+---
+
+## 🚀 Features
+
+- 🎙 **Multiple Character Personas:** 10 Money Heist characters, each with unique voice & style  
+- 🌍 **Multilingual:** English, Spanish, French, German, Italian  
+- 📄 **Upload PDFs & Images:** Auto-parse and analyze file content  
+- ⚙️ **DeepThink Mode:** Ultra-analytical deep responses  
+- 🏆 **Gamification & XP:** Earn XP, unlock new characters & UI themes  
+- 📂 **Chat History & Search:** Save & search all conversations seamlessly  
+- 💾 **Export Chats:** Download chat history as PDF or JSON file  
+- 🌓 **Dark/Light UI:** Tailor the app look to your preference  
+- ⌨️ **Keyboard Shortcuts:** For power users, optimizing chat experience  
+
+---
+
+## 🎯 Demo
+
+> Check out the live demo here:  
+> [https://yourdomain.com](https://yourdomain.com)  
+
+![Chat Preview](https://user-images.githubusercontent.com/your-username/el-profesor-chat-preview.gif)
+
+---
+
+## 🛠 Tech Stack
+
+| Technology         | Purpose                         |
+|--------------------|--------------------------------|
+| [`Next.js 14`](https://nextjs.org/)           | React framework for server/client rendering |
+| [`TypeScript`](https://www.typescriptlang.org/)| Type safety & enhanced dev experience       |
+| [`Tailwind CSS`](https://tailwindcss.com/)        | Utility-first CSS for styling                |
+| [`Framer Motion`](https://www.framer.com/motion/)  | Smooth UI animations                         |
+| [`Google Gemini API`](https://developers.generativelanguage.ai/) | AI content generation                      |
+| [`PDF.js`](https://mozilla.github.io/pdf.js/)          | Client-side PDF parsing                      |
+| [`shadcn/ui`](https://ui.shadcn.com/)                | Accessible React UI components               |
+
+---
+
+## ⚙️ Installation & Setup
+
+```
+# Clone repository
+git clone https://github.com/TheLearnerAllTime002/El-Profesor-AI.git
+cd El-Profesor-AI
+
+# Install dependencies
+npm install
+
+# Set API key
+echo "NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here" > .env.local
+
+# Run the app locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to start chatting!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```markdown
+## 🧑‍💻 Usage
 
-## Learn More
+1. **Select your preferred language and character persona** — choose from multiple Money Heist characters with unique personalities.
+2. **Start chatting** — type your message in the input box and press Enter or click the send button.
+3. **Upload files** — optionally upload PDFs or images to provide context for AI responses.
+4. **Enable DeepThink mode** for detailed, analytical answers using the toggle button.
+5. **Use keyboard shortcuts** for faster navigation:
+   - `Ctrl + K`: Open search panel
+   - `Ctrl + H`: Open chat history
+   - `Ctrl + Shift + C`: Clear current chat
+   - `Ctrl + Shift + D`: Toggle DeepThink mode
+6. **Export your conversation** to PDF or JSON format using the export buttons.
+7. **Explore themes and unlock new characters** by earning XP from active chat participation.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features in Detail
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Feature          | Description                                                                                  |
+|------------------|----------------------------------------------------------------------------------------------|
+| **Money Heist Personas** | Chat as The Professor, Berlin, Tokyo, Nairobi, Helsinki and more with authentic dialogue.    |
+| **Multilingual Support** | Full UI and AI responses in English, Spanish, French, German, and Italian.                  |
+| **File Upload**          | Upload PDFs and images for the AI to analyze and respond with contextual knowledge.        |
+| **DeepThink Mode**       | Enables the AI to provide complex, detailed, and structured responses.                      |
+| **Chat History & Search**| All chats saved locally; search messages and switch easily between past conversations.     |
+| **XP & Gamification**    | Earn experience points, level up, unlock new personas and UI themes as you interact.        |
+| **Dark/Light Mode**      | Toggle themes for comfortable chatting anytime.                                            |
+| **Keyboard Shortcuts**   | Quickly access panels and functions for enhanced productivity.                             |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 Troubleshooting & Package Management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project relies on **npm** for package management and uses **shadcn/ui** for UI components.  
+If you face version conflicts or package-related errors, use:
+
+```
+npm install
+npm update
+npm audit fix
+```
+
+Ensure correct Node.js and npm versions by running:
+
+```
+node -v
+npm -v
+```
+
+Update npm if necessary with:
+
+```
+npm install -g npm@latest
+```
+
+Refer to [shadcn/ui docs](https://ui.shadcn.com/) for component-specific issues.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+---
+
+## 🎬 Acknowledgments
+
+- Inspired by Netflix’s *Money Heist* (La Casa de Papel)  
+- Powered by Google Gemini AI technology  
+- UI components by shadcn/ui  
+- PDF parsing courtesy of Mozilla PDF.js  
+
+---
+
+> “La resistencia es el único camino.” — *El Profesor*  
+>  
+> Feel free to contribute and improve this project!
+
+---
+
+© 2025 TheLearnerAllTime002  
+[GitHub Repository](https://github.com/TheLearnerAllTime002/El-Profesor-AI)
+```
