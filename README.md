@@ -80,8 +80,6 @@ You can deploy this app to any platform that supports **Node.js**, such as:
 ## 👑 About the Creator
 ---
 **Built by [Arjun – The Learner All Time](https://github.com/TheLearnerAllTime002)**
-Engineering Student • Cloud Explorer • AI Developer • ESP32 & Chatbot Enthusiast
-🎖️ Chair, IEEE IES Student Chapter – STCET Kolkata
 
 ---
 
