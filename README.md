@@ -1,162 +1,98 @@
-```markdown
-# :money_with_wings: El Profesor AI - Money Heist Chatbot
+# 🧠 El-Profesor AI 💬  
+### *The Ultimate Money Heist-Inspired AI Chatbot Interface*
+
+> A fully responsive, modern AI chatbot UI built with **Next.js 14**, **TypeScript**, **TailwindCSS**, and **Shadcn UI**, featuring **persona switching**, **XP system**, and **DeepThink™ mode** — all wrapped in the thrilling vibe of *La Casa de Papel* 🎭.
 
 ---
 
-
-  
-
-
----
-
-## 🎭 About
-
-**El Profesor AI** is an immersive, multilingual AI chatbot inspired by Netflix's *Money Heist* (La Casa de Papel).  
-Chat with iconic characters like **The Professor**, **Berlin**, **Tokyo**, and more, as they engage with unforgettable charisma.  
-Upload PDFs or images during conversations for advanced content-aware replies.  
-Experience a rich, heist-themed interface with gamification elements and stylish UI!
+![AI Chat UI](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=1000&lines=💣+Welcome+to+El+Profesor+AI+%E2%80%94+Heist+Your+Thoughts+💬;🎭+Modern+Next.js+14+AI+Chatbot+UI+Inspired+by+Money+Heist;🛡️+Built+with+Shadcn+UI%2C+TailwindCSS%2C+and+TypeScript)
 
 ---
 
 ## 🚀 Features
 
-- 🎙 **Multiple Character Personas:** 10 Money Heist characters, each with unique voice & style  
-- 🌍 **Multilingual:** English, Spanish, French, German, Italian  
-- 📄 **Upload PDFs & Images:** Auto-parse and analyze file content  
-- ⚙️ **DeepThink Mode:** Ultra-analytical deep responses  
-- 🏆 **Gamification & XP:** Earn XP, unlock new characters & UI themes  
-- 📂 **Chat History & Search:** Save & search all conversations seamlessly  
-- 💾 **Export Chats:** Download chat history as PDF or JSON file  
-- 🌓 **Dark/Light UI:** Tailor the app look to your preference  
-- ⌨️ **Keyboard Shortcuts:** For power users, optimizing chat experience  
+- 🎭 **Persona Switcher**: Chat with different characters like **Professor**, **Berlin**, **Tokyo** — with dynamic system prompts.
+- 🧠 **DeepThink Mode**: Activate powerful long-context reasoning.
+- 🧩 **Command Palette**: Search, switch roles, or activate themes in seconds.
+- 🧬 **Multilingual Support**: Talk in English, Spanish, Hindi, and more.
+- 🎮 **XP + Gamification System** *(optional)*: Earn points, unlock themes and tools.
+- 📱 **Fully Responsive**: Optimized for **mobile**, **tablet**, and **desktop**.
+- 🧾 **Chat Export**: Save conversations with one click.
+- ☁️ **Built with App Router**: Clean architecture using Next.js 14.
+- 💡 **Smart Auto-scroll & Timestamping** for message history.
 
 ---
 
-## 🎯 Demo
+## 🛠️ Tech Stack
 
-> Check out the live demo here:  
-> [https://yourdomain.com](https://yourdomain.com)  
-
-![Chat Preview](https://user-images.githubusercontent.com/your-username/el-profesor-chat-preview.gif)
-
----
-
-## 🛠 Tech Stack
-
-| Technology         | Purpose                         |
-|--------------------|--------------------------------|
-| [`Next.js 14`](https://nextjs.org/)           | React framework for server/client rendering |
-| [`TypeScript`](https://www.typescriptlang.org/)| Type safety & enhanced dev experience       |
-| [`Tailwind CSS`](https://tailwindcss.com/)        | Utility-first CSS for styling                |
-| [`Framer Motion`](https://www.framer.com/motion/)  | Smooth UI animations                         |
-| [`Google Gemini API`](https://developers.generativelanguage.ai/) | AI content generation                      |
-| [`PDF.js`](https://mozilla.github.io/pdf.js/)          | Client-side PDF parsing                      |
-| [`shadcn/ui`](https://ui.shadcn.com/)                | Accessible React UI components               |
+| Frontend | Styling | Components | State & UX |
+|----------|---------|------------|-------------|
+| [Next.js 14](https://nextjs.org/) | [Tailwind CSS](https://tailwindcss.com/) | [shadcn/ui](https://ui.shadcn.com/) | React Hooks, `useRef`, `useEffect` |
+| [TypeScript](https://www.typescriptlang.org/) | [Framer Motion](https://www.framer.com/motion/) | [Lucide Icons](https://lucide.dev/) | Scroll Areas, Avatar Fallback, etc. |
 
 ---
 
-## ⚙️ Installation & Setup
+## 🖼️ Preview
 
-```
-# Clone repository
+![El-Profesor UI Preview](https://github.com/TheLearnerAllTime002/El-Profesor-AI/assets/your-preview-image.png)
+
+> *(Replace the preview image with a clean screenshot or short Loom/GIF demo for max effect.)*
+
+---
+
+## 🧪 Local Development
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/TheLearnerAllTime002/El-Profesor-AI.git
 cd El-Profesor-AI
 
-# Install dependencies
+# 2. Install dependencies
 npm install
 
-# Set API key
-echo "NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here" > .env.local
-
-# Run the app locally
+# 3. Run the development server
 npm run dev
-```
 
-Open http://localhost:3000 in your browser to start chatting!
+# Open http://localhost:3000 in your browser
+🌐 Deployment
+You can deploy this app to any platform that supports Node.js, such as:
 
----
+Vercel (Recommended - 1-click Next.js deploy)
 
-```markdown
-## 🧑‍💻 Usage
+Netlify
 
-1. **Select your preferred language and character persona** — choose from multiple Money Heist characters with unique personalities.
-2. **Start chatting** — type your message in the input box and press Enter or click the send button.
-3. **Upload files** — optionally upload PDFs or images to provide context for AI responses.
-4. **Enable DeepThink mode** for detailed, analytical answers using the toggle button.
-5. **Use keyboard shortcuts** for faster navigation:
-   - `Ctrl + K`: Open search panel
-   - `Ctrl + H`: Open chat history
-   - `Ctrl + Shift + C`: Clear current chat
-   - `Ctrl + Shift + D`: Toggle DeepThink mode
-6. **Export your conversation** to PDF or JSON format using the export buttons.
-7. **Explore themes and unlock new characters** by earning XP from active chat participation.
+Railway
 
----
+Render
 
-## ✨ Features in Detail
+🧠 Future Roadmap
+ 🎤 Voice input + TTS integration
 
-| Feature          | Description                                                                                  |
-|------------------|----------------------------------------------------------------------------------------------|
-| **Money Heist Personas** | Chat as The Professor, Berlin, Tokyo, Nairobi, Helsinki and more with authentic dialogue.    |
-| **Multilingual Support** | Full UI and AI responses in English, Spanish, French, German, and Italian.                  |
-| **File Upload**          | Upload PDFs and images for the AI to analyze and respond with contextual knowledge.        |
-| **DeepThink Mode**       | Enables the AI to provide complex, detailed, and structured responses.                      |
-| **Chat History & Search**| All chats saved locally; search messages and switch easily between past conversations.     |
-| **XP & Gamification**    | Earn experience points, level up, unlock new personas and UI themes as you interact.        |
-| **Dark/Light Mode**      | Toggle themes for comfortable chatting anytime.                                            |
-| **Keyboard Shortcuts**   | Quickly access panels and functions for enhanced productivity.                             |
+ 🔐 Secure Auth & Role-based Access
 
----
+ 🧑‍🏫 User dashboard to manage unlocked tools
 
-## 🧩 Troubleshooting & Package Management
+ 🌍 Real-time collaboration or chat-sharing
 
-This project relies on **npm** for package management and uses **shadcn/ui** for UI components.  
-If you face version conflicts or package-related errors, use:
+👑 About the Creator
+Built by Arjun – The Learner All Time
+Engineering Student • Cloud Explorer • AI Developer • ESP32 & Chatbot Enthusiast
+🎖️ Chair, IEEE IES Student Chapter – STCET Kolkata
 
-```
-npm install
-npm update
-npm audit fix
-```
+⭐ Show Your Support
+If you like this project, please consider:
 
-Ensure correct Node.js and npm versions by running:
+🌟 Starring the repo
 
-```
-node -v
-npm -v
-```
+🍴 Forking it
 
-Update npm if necessary with:
+🐛 Opening issues for suggestions or bugs
 
-```
-npm install -g npm@latest
-```
+🤝 Contributing enhancements
 
-Refer to [shadcn/ui docs](https://ui.shadcn.com/) for component-specific issues.
+📄 License
+MIT License. Use it. Remix it. Just don’t forget to give credit! 🤝
 
----
+“The second you break down the rules of the system, you realize… anything is possible.”
+— El Profesor
 
-## 📜 License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
-
----
-
-## 🎬 Acknowledgments
-
-- Inspired by Netflix’s *Money Heist* (La Casa de Papel)  
-- Powered by Google Gemini AI technology  
-- UI components by shadcn/ui  
-- PDF parsing courtesy of Mozilla PDF.js  
-
----
-
-> “La resistencia es el único camino.” — *El Profesor*  
->  
-> Feel free to contribute and improve this project!
-
----
-
-© 2025 TheLearnerAllTime002  
-[GitHub Repository](https://github.com/TheLearnerAllTime002/El-Profesor-AI)
-```
