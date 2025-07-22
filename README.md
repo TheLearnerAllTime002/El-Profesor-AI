@@ -34,9 +34,8 @@
 
 ## 🖼️ Preview
 
-![El-Profesor UI Preview](https://github.com/TheLearnerAllTime002/El-Profesor-AI/assets/your-preview-image.png)
+![El-Profesor UI Preview](https://github.com/TheLearnerAllTime002/El-Profesor-AI/blob/main/preview.png)
 
-> *(Replace the preview image with a clean screenshot or short Loom/GIF demo for max effect.)*
 
 ---
 
@@ -54,7 +53,12 @@ npm install
 npm run dev
 
 # Open http://localhost:3000 in your browser
-🌐 Deployment
+
+---
+
+##🌐 Deployment
+
+```bash
 You can deploy this app to any platform that supports Node.js, such as:
 
 Vercel (Recommended - 1-click Next.js deploy)
@@ -64,8 +68,10 @@ Netlify
 Railway
 
 Render
+---
+##🧠 Future Roadmap
 
-🧠 Future Roadmap
+```bash
  🎤 Voice input + TTS integration
 
  🔐 Secure Auth & Role-based Access
