@@ -40,7 +40,7 @@
 ---
 
 ## 🧪 Local Development
-
+---
 ```bash
 # 1. Clone the repository
 git clone https://github.com/TheLearnerAllTime002/El-Profesor-AI.git
@@ -58,7 +58,7 @@ npm run dev
 ---
 
 ## 🌐 Deployment
-
+---
 You can deploy this app to any platform that supports **Node.js**, such as:
 
 * **[Vercel](https://vercel.com/)** *(Recommended - 1-click Next.js deploy)*
@@ -69,7 +69,7 @@ You can deploy this app to any platform that supports **Node.js**, such as:
 ---
 
 ## 🧠 Future Roadmap
-
+---
 * 🎤 Voice input + TTS integration
 * 🔐 Secure Auth & Role-based Access
 * 🧑‍🏫 User dashboard to manage unlocked tools
@@ -78,7 +78,7 @@ You can deploy this app to any platform that supports **Node.js**, such as:
 ---
 
 ## 👑 About the Creator
-
+---
 **Built by [Arjun – The Learner All Time](https://github.com/TheLearnerAllTime002)**
 Engineering Student • Cloud Explorer • AI Developer • ESP32 & Chatbot Enthusiast
 🎖️ Chair, IEEE IES Student Chapter – STCET Kolkata
@@ -86,7 +86,7 @@ Engineering Student • Cloud Explorer • AI Developer • ESP32 & Chatbot Enth
 ---
 
 ## ⭐ Show Your Support
-
+---
 If you like this project, please consider:
 
 * 🌟 Starring the repo
@@ -97,7 +97,7 @@ If you like this project, please consider:
 ---
 
 ## 📄 License
-
+---
 **MIT License**
 Use it. Remix it. Just don’t forget to give credit! 🤝
 
