@@ -34,14 +34,13 @@
 
 ## 🖼️ Preview
 
-![El-Profesor UI Preview](https://github.com/TheLearnerAllTime002/El-Profesor-AI/assets/your-preview-image.png)
+![El-Profesor UI Preview](https://github.com/TheLearnerAllTime002/El-Profesor-AI/blob/main/preview.png)
 
-> *(Replace the preview image with a clean screenshot or short Loom/GIF demo for max effect.)*
 
 ---
 
 ## 🧪 Local Development
-
+---
 ```bash
 # 1. Clone the repository
 git clone https://github.com/TheLearnerAllTime002/El-Profesor-AI.git
@@ -54,45 +53,57 @@ npm install
 npm run dev
 
 # Open http://localhost:3000 in your browser
-🌐 Deployment
-You can deploy this app to any platform that supports Node.js, such as:
+````
 
-Vercel (Recommended - 1-click Next.js deploy)
+---
 
-Netlify
+## 🌐 Deployment
+---
+You can deploy this app to any platform that supports **Node.js**, such as:
 
-Railway
+* **[Vercel](https://vercel.com/)** *(Recommended - 1-click Next.js deploy)*
+* **[Netlify](https://www.netlify.com/)**
+* **[Railway](https://railway.app/)**
+* **[Render](https://render.com/)**
 
-Render
+---
 
-🧠 Future Roadmap
- 🎤 Voice input + TTS integration
+## 🧠 Future Roadmap
+---
+* 🎤 Voice input + TTS integration
+* 🔐 Secure Auth & Role-based Access
+* 🧑‍🏫 User dashboard to manage unlocked tools
+* 🌍 Real-time collaboration or chat-sharing
 
- 🔐 Secure Auth & Role-based Access
+---
 
- 🧑‍🏫 User dashboard to manage unlocked tools
+## 👑 About the Creator
+---
+**Built by [Arjun – The Learner All Time](https://github.com/TheLearnerAllTime002)**
 
- 🌍 Real-time collaboration or chat-sharing
+---
 
-👑 About the Creator
-Built by Arjun – The Learner All Time
-Engineering Student • Cloud Explorer • AI Developer • ESP32 & Chatbot Enthusiast
-🎖️ Chair, IEEE IES Student Chapter – STCET Kolkata
-
-⭐ Show Your Support
+## ⭐ Show Your Support
+---
 If you like this project, please consider:
 
-🌟 Starring the repo
+* 🌟 Starring the repo
+* 🍴 Forking it
+* 🐛 Opening issues for suggestions or bugs
+* 🤝 Contributing enhancements
 
-🍴 Forking it
+---
 
-🐛 Opening issues for suggestions or bugs
+## 📄 License
+---
+**MIT License**
+Use it. Remix it. Just don’t forget to give credit! 🤝
 
-🤝 Contributing enhancements
+---
 
-📄 License
-MIT License. Use it. Remix it. Just don’t forget to give credit! 🤝
+> *“The second you break down the rules of the system, you realize… anything is possible.”*
+> — **El Profesor**
 
-“The second you break down the rules of the system, you realize… anything is possible.”
-— El Profesor
+
+
 
